@@ -180,6 +180,26 @@
                 <h1>Contact</h1>
                 <h6>Prenons contact, je paie le café</h6>
             </div>
+            <form method="POST" action="https://formspree.io/freelance.maxandre@outlook.com">
+                <label for="name">Name</label>
+                <input type="text" name="name" placeholder="Veuillez entrer votre nom..." required>
+
+                <label for="">Email</label>
+                <input type="email" name="_replyto" placeholder="Veuillez saisir votre e-mail...">
+
+                <label for="services">Services</label>
+                <select name="_subject" id="services">
+                    <option value="web-development">Développement Web</option>
+                    <option value="mobile-application">Application Mobile</option>
+                    <option value="software-development">Développement Logiciel</option>
+                    <option value="consulting">Etude de besoin</option>
+                </select>
+
+                <label for="description">Description du projet</label>
+                <textarea name="description" id="description" cols="30" rows="10"></textarea>
+
+                <input type="submit" value="Send">
+            </form>
         </div>
     </section>
 </body>
