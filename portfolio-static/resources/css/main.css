@@ -1,0 +1,220 @@
+/*Global*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Lato', sans-serif;
+    font-size: 10px;
+    color: #eee;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #4B4847;
+}
+
+section {
+    padding: 6rem;
+}
+
+a {
+    text-decoration: none;
+    color: #eee;
+}
+
+p {
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+
+img {
+    width: 100%;
+}
+
+/* End Global*/
+
+/*Reusable*/
+
+.container {
+    width: 90%;
+    max-width: 120rem;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+/*End Reusable*/
+
+/*Header Section*/
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    margin: 0 2rem;
+}
+
+/*End Header Section*/
+
+/*About Section*/
+.about .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-img {
+    flex: 1;
+    margin-right: 5rem;
+}
+
+.about-details {
+    flex: 1;
+}
+
+.about-heading {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 6rem;
+    line-height: 0;
+}
+
+.about-heading h1 {
+    font-size: 5rem;
+    opacity: .3;
+}
+
+.about-heading h6 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.about-details p {
+    text-align: justify;
+    font-family: 'Lato', sans-serif;
+    margin: 2rem 0;
+}
+
+.social-media {
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+/*End About Section*/
+
+/*Services Section*/
+.section-heading {
+    width: 100%;
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    margin-bottom: 10rem;
+}
+
+.section-heading h1 {
+    font-size: 4rem;
+    opacity: .3;
+}
+
+.section-heading h6 {
+    font-size: 1.8rem;
+}
+
+.my-skill {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-gap: 2.5rem;
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.icon-container {
+    border: 4px solid #F71463;
+    background-color: #CCEE13;
+    transform: rotate(45deg);
+    display: flex;
+    width: 10rem;
+    height: 10rem;
+    margin-bottom: 2rem;
+}
+
+.icon-container i {
+    transform: rotate(-45deg);
+    color: #F71463;
+    font-size: 5rem;
+    margin: auto;
+}
+
+.skill h1 {
+    font-size: 2rem;
+    font-family: 'Abel', sans-serif;
+    margin: 1rem 0;
+}
+
+.skill p {
+    font-family: 'Lato', sans-serif;
+}
+
+/*End Services Section*/
+
+/*Portfolio Section*/
+.project .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-img {
+    flex: 1;
+    margin-right: 10rem;
+}
+
+.project-description {
+    flex: 1;
+}
+
+.project-description h6 {
+    font-size: 1.5rem;
+    opacity: .3;
+    font-family: 'Abel', sans-serif;
+}
+
+.project-description h1 {
+    font-size: 3rem;
+    font-family: 'Abel', sans-serif;
+}
+
+.project-description p {
+    margin: 1rem 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.project-labels {
+    display: flex;
+}
+
+.label {
+    background-color: #F71463;
+    margin: 0 1rem;
+    padding: 1rem;
+    font-size: 1rem;
+    font-family: 'Lato', sans-serif;
+    border-radius: 20rem;
+}
+
+/*End Portfolio Section*/
+
+/*Contact Section*/
+/*End Contact Section*/
