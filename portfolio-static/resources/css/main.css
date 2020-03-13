@@ -230,6 +230,7 @@ header .container {
 .project-img {
   flex: 1;
   margin-right: 2rem;
+  border: 2px solid #ffffff;
 }
 
 .project-description {
