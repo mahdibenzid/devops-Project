@@ -46,11 +46,16 @@ img {
   margin: 0 auto;
   position: relative;
 }
+
 /*End Reusable*/
 
 /*Header Section*/
 
 /*End Header Section*/
+.top-nav .icon-menu {
+  display: none;
+}
+
 .top-nav {
   background-color: #027381;
   font-size: 2.5rem;
@@ -305,9 +310,15 @@ input[type="submit"] {
   font-family: "Lato", sans-serif;
   color: #ffffff;
 }
+
 /*End Contact Section*/
 
 @media screen and (max-width: 768px) {
+
+  .top-nav .icon-menu {
+    display: none;
+  }
+
   .top-nav {
     font-size: 1.4rem;
   }
@@ -387,6 +398,45 @@ input[type="submit"] {
 }
 
 @media screen and (max-width: 600px) {
+  .top-nav.responsive ul {
+    order: 2;
+
+  }
+
+  .top-nav.responsive a {
+    order: 1;
+    justify-content: flex-end;
+  }
+
+  .responsive {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .nav-list.responsive li {
+    display: block;
+    align-items: flex-end;
+    margin: 1rem 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .nav-list li {
+    display: none;
+  }
+
+  .top-nav .icon-menu {
+    float: right;
+    display: block;
+  }
+
+  /* .top-nav .icon-menu {
+    position: absolute;
+    right: 0;
+    top: 0;
+  } */
+
   header .container {
     flex-direction: column;
   }
@@ -415,7 +465,7 @@ input[type="submit"] {
     margin-bottom: 5rem;
   }
 
-  .project-img{
+  .project-img {
     margin: auto;
   }
 
@@ -423,7 +473,7 @@ input[type="submit"] {
     flex-direction: column;
   }
 
-  input[type="submit"]{
+  input[type="submit"] {
     width: 25%
   }
 }
