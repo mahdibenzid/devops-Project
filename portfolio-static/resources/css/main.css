@@ -46,10 +46,25 @@ img {
     margin: 0 auto;
     position: relative;
 }
-
 /*End Reusable*/
 
 /*Header Section*/
+
+/*End Header Section*/
+.top-nav{
+    background-color: #027381;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0.5rem;
+    border-radius: 0.2rem;
+    font-family: 'Allerta Stencil', sans-serif;
+    padding: 2rem;
+    position: fixed;
+    width: 100%;
+    z-index:100;
+}
+
 .nav-list {
     list-style: none;
     display: flex;
@@ -58,8 +73,6 @@ img {
 li {
     margin: 0 2rem;
 }
-
-/*End Header Section*/
 
 /*About Section*/
 .about .container {
@@ -260,7 +273,5 @@ input[type="submit"] {
     margin: 1rem 0;
     font-family: 'Lato', sans-serif;
     color: #ffffff;
-
 }
-
 /*End Contact Section*/
