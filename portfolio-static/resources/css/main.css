@@ -427,6 +427,10 @@ input[type="submit"] {
     display: none;
   }
 
+  .nav-list.soc-list li {
+    display: flex;
+  }
+
   .top-nav .icon-menu {
     float: right;
     display: block;
