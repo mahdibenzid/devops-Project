@@ -398,6 +398,84 @@ input[type="submit"] {
 }
 
 @media screen and (max-width: 600px) {
+  .nav-list li {
+    display: none;
+  }
+
+  .nav-list.responsive li {
+    font-size: 2rem;
+  }
+
+  .nav-list.soc-list li {
+    display: flex;
+  }
+
+  .top-nav .icon-menu {
+    float: right;
+    display: block;
+  }
+
+  header .container {
+    flex-direction: column;
+  }
+
+  .landing-text {
+    margin-top: 15rem;
+  }
+
+  .landing-img {
+    margin-bottom: 15rem;
+  }
+
+  .about .container {
+    flex-direction: column;
+  }
+
+  .about-heading h1 {
+    font-size: 4.5rem;
+  }
+
+  .about-heading h6 {
+    font-size: 2rem;
+  }
+
+  .about-details p {
+    font-size: 1.7rem;
+  }
+  .profile-img {
+    margin: 0 0 5rem 0;
+  }
+
+  .social-media {
+    flex-direction: row;
+  }
+
+  .section-heading {
+    margin-bottom: 5rem;
+  }
+
+  .section-heading h1 {
+    font-size: 3.5rem;
+  }
+
+  .section-heading h6 {
+    font-size: 2rem;
+  }
+
+  .project-img {
+    margin: auto;
+  }
+
+  .project .container {
+    flex-direction: column;
+  }
+
+  input[type="submit"] {
+    width: 25%;
+  }
+}
+
+@media screen and (max-width: 600px) {
   .top-nav.responsive ul {
     order: 2;
   }
@@ -417,66 +495,5 @@ input[type="submit"] {
     display: block;
     align-items: flex-end;
     margin: 1rem 0;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .nav-list li {
-    display: none;
-  }
-
-  .nav-list.soc-list li {
-    display: flex;
-  }
-
-  .top-nav .icon-menu {
-    float: right;
-    display: block;
-  }
-
-  /* .top-nav .icon-menu {
-    position: absolute;
-    right: 0;
-    top: 0;
-  } */
-
-  header .container {
-    flex-direction: column;
-  }
-
-  .landing-text {
-    margin-top: 15rem;
-  }
-
-  .landing-img {
-    margin-bottom: 15rem;
-  }
-
-  .about .container {
-    flex-direction: column;
-  }
-
-  .profile-img {
-    margin: 0 0 5rem 0;
-  }
-
-  .social-media {
-    flex-direction: row;
-  }
-
-  .section-heading {
-    margin-bottom: 5rem;
-  }
-
-  .project-img {
-    margin: auto;
-  }
-
-  .project .container {
-    flex-direction: column;
-  }
-
-  input[type="submit"] {
-    width: 25%;
   }
 }
