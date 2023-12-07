@@ -1,4 +1,4 @@
-name: workflow protfolio
+name: WF-Dev
 
 on:
   push:
