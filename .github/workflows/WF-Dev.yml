@@ -1,4 +1,4 @@
-name: WF-Dev
+name: Wf-Dev
 
 on:
   push:
@@ -31,4 +31,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: 20979006hr/hamza_rihani_portfolio:1.0.${{github.run_number}}
+          tags: mahdibenzid/devops-Project:1.0.${{github.run_number}}
