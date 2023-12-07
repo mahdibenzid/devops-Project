@@ -3,7 +3,7 @@ name: Wf-Dev
 on:
   push:
     branches:
-     - 'main'
+     - 'dev'
 
 jobs:
   docker:
